@@ -28,12 +28,8 @@ int main()
 
           for(int i = 0; i < tamanho; i++)
           {
-
               if(valorOriginal[i] != teclaFalha)
-              {
                   valorAletrado+=valorOriginal[i];
-              }
-
           }
 
           tamanho = valorAletrado.size();
